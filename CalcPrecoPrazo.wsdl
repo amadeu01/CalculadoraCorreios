@@ -3,14 +3,12 @@
     xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
     xmlns:http="http://schemas.xmlsoap.org/wsdl/http/"
     xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/"
-    xmlns:tns="http://tempuri.org/"
+    xmlns:tns="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/"
     xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
-    xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/"
-    xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
-    targetNamespace="http://tempuri.org/">
+    targetNamespace="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/">
     <wsdl:types>
-        <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+        <s:schema elementFormDefault="qualified" targetNamespace="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/">
             <s:element name="CalcPrecoPrazo">
                 <s:complexType>
                     <s:sequence>
@@ -760,7 +758,7 @@
     <wsdl:binding name="CalcPrecoPrazoWSSoap" type="tns:CalcPrecoPrazoWSSoap">
         <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
         <wsdl:operation name="CalcPrecoPrazo">
-            <soap:operation soapAction="http://tempuri.org/CalcPrecoPrazo" style="document"/>
+            <soap:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrecoPrazo" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -769,7 +767,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPrecoPrazoData">
-            <soap:operation soapAction="http://tempuri.org/CalcPrecoPrazoData" style="document"/>
+            <soap:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrecoPrazoData" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -778,7 +776,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPrecoPrazoRestricao">
-            <soap:operation soapAction="http://tempuri.org/CalcPrecoPrazoRestricao" style="document"/>
+            <soap:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrecoPrazoRestricao" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -787,7 +785,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPreco">
-            <soap:operation soapAction="http://tempuri.org/CalcPreco" style="document"/>
+            <soap:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPreco" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -796,7 +794,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPrecoData">
-            <soap:operation soapAction="http://tempuri.org/CalcPrecoData" style="document"/>
+            <soap:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrecoData" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -805,7 +803,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPrazo">
-            <soap:operation soapAction="http://tempuri.org/CalcPrazo" style="document"/>
+            <soap:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrazo" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -814,7 +812,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPrazoData">
-            <soap:operation soapAction="http://tempuri.org/CalcPrazoData" style="document"/>
+            <soap:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrazoData" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -823,7 +821,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPrazoRestricao">
-            <soap:operation soapAction="http://tempuri.org/CalcPrazoRestricao" style="document"/>
+            <soap:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrazoRestricao" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -832,7 +830,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPrecoFAC">
-            <soap:operation soapAction="http://tempuri.org/CalcPrecoFAC" style="document"/>
+            <soap:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrecoFAC" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -841,7 +839,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPrazoObjeto">
-            <soap:operation soapAction="http://tempuri.org/CalcPrazoObjeto" style="document"/>
+            <soap:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrazoObjeto" style="document"/>
             <wsdl:input>
                 <soap:body use="literal"/>
             </wsdl:input>
@@ -853,7 +851,7 @@
     <wsdl:binding name="CalcPrecoPrazoWSSoap12" type="tns:CalcPrecoPrazoWSSoap">
         <soap12:binding transport="http://schemas.xmlsoap.org/soap/http"/>
         <wsdl:operation name="CalcPrecoPrazo">
-            <soap12:operation soapAction="http://tempuri.org/CalcPrecoPrazo" style="document"/>
+            <soap12:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrecoPrazo" style="document"/>
             <wsdl:input>
                 <soap12:body use="literal"/>
             </wsdl:input>
@@ -862,7 +860,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPrecoPrazoData">
-            <soap12:operation soapAction="http://tempuri.org/CalcPrecoPrazoData" style="document"/>
+            <soap12:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrecoPrazoData" style="document"/>
             <wsdl:input>
                 <soap12:body use="literal"/>
             </wsdl:input>
@@ -871,7 +869,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPrecoPrazoRestricao">
-            <soap12:operation soapAction="http://tempuri.org/CalcPrecoPrazoRestricao" style="document"/>
+            <soap12:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrecoPrazoRestricao" style="document"/>
             <wsdl:input>
                 <soap12:body use="literal"/>
             </wsdl:input>
@@ -880,7 +878,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPreco">
-            <soap12:operation soapAction="http://tempuri.org/CalcPreco" style="document"/>
+            <soap12:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPreco" style="document"/>
             <wsdl:input>
                 <soap12:body use="literal"/>
             </wsdl:input>
@@ -889,7 +887,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPrecoData">
-            <soap12:operation soapAction="http://tempuri.org/CalcPrecoData" style="document"/>
+            <soap12:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrecoData" style="document"/>
             <wsdl:input>
                 <soap12:body use="literal"/>
             </wsdl:input>
@@ -898,7 +896,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPrazo">
-            <soap12:operation soapAction="http://tempuri.org/CalcPrazo" style="document"/>
+            <soap12:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrazo" style="document"/>
             <wsdl:input>
                 <soap12:body use="literal"/>
             </wsdl:input>
@@ -907,7 +905,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPrazoData">
-            <soap12:operation soapAction="http://tempuri.org/CalcPrazoData" style="document"/>
+            <soap12:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrazoData" style="document"/>
             <wsdl:input>
                 <soap12:body use="literal"/>
             </wsdl:input>
@@ -916,7 +914,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPrazoRestricao">
-            <soap12:operation soapAction="http://tempuri.org/CalcPrazoRestricao" style="document"/>
+            <soap12:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrazoRestricao" style="document"/>
             <wsdl:input>
                 <soap12:body use="literal"/>
             </wsdl:input>
@@ -925,7 +923,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPrecoFAC">
-            <soap12:operation soapAction="http://tempuri.org/CalcPrecoFAC" style="document"/>
+            <soap12:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrecoFAC" style="document"/>
             <wsdl:input>
                 <soap12:body use="literal"/>
             </wsdl:input>
@@ -934,7 +932,7 @@
             </wsdl:output>
         </wsdl:operation>
         <wsdl:operation name="CalcPrazoObjeto">
-            <soap12:operation soapAction="http://tempuri.org/CalcPrazoObjeto" style="document"/>
+            <soap12:operation soapAction="http://ws.correios.com.br/calculador/CalcPrecoPrazo.asmx/CalcPrazoObjeto" style="document"/>
             <wsdl:input>
                 <soap12:body use="literal"/>
             </wsdl:input>
