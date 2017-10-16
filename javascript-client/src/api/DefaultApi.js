@@ -88,14 +88,14 @@
       var pathParams = {
       };
       var queryParams = {
-        'nCdServico': nCdServico
+        'nCdServico': nCdServico,
+        'sCepOrigem': sCepOrigem,
+        'sCepDestino': sCepDestino,
+        'sDtCalculo': opts['sDtCalculo']
       };
       var headerParams = {
       };
       var formParams = {
-        'sCepOrigem': sCepOrigem,
-        'sCepDestino': sCepDestino,
-        'sDtCalculo': opts['sDtCalculo']
       };
 
       var authNames = [];

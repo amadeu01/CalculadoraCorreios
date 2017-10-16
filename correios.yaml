@@ -231,7 +231,7 @@ paths:
               Pode ser mais de um numa consulta separados por vírgula.
           required: true
         - name: sCepOrigem
-          in: formData
+          in: query
           type: string
           description: |
             CEP de origem hífen.
@@ -239,7 +239,7 @@ paths:
               88102080
           required: true
         - name: sCepDestino
-          in: formData
+          in: query
           type: string
           description: |
             CEP de destino sem hífen.
@@ -249,7 +249,7 @@ paths:
         - name: sDtCalculo
           type: string
           format: date
-          in: formData
+          in: query
           description: |
             Data tipo dd/mm/aaaa.
             Ex:

@@ -1,0 +1,21 @@
+{
+  "name": "calculadora_correios",
+  "version": "0.0.1",
+  "description": "Calcular frete correios",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amadeu01/CalculadoraCorreios.git"
+  },
+  "author": "Amadeu Cavalcante",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amadeu01/CalculadoraCorreios/issues"
+  },
+  "homepage": "https://github.com/amadeu01/CalculadoraCorreios#readme"
+}
